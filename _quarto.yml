@@ -5,7 +5,7 @@ project:
 website:
   title: "ryleesheils"
   navbar:
-  collapse: false
+    collapse: false
     left:
       - href: index.qmd
         text: Landing
@@ -25,5 +25,3 @@ format:
       - brand
     css: styles.css
     toc: true
-
-editor: visual

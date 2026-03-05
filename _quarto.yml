@@ -3,12 +3,12 @@ project:
   output-dir: docs
 
 website:
-  title: "mysite"
+  title: "ryleesheils"
   navbar:
   collapse: false
     left:
       - href: index.qmd
-        text: Home
+        text: Landing
       - href: about.qmd
         text: About
       - href: projects.qmd

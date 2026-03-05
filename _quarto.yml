@@ -10,6 +10,12 @@ website:
         text: Home
       - href: about.qmd
         text: About
+      - href: projects.qmd
+        text: Projects
+      - href: resume.qmd
+        text: Resume
+      - href: free.qmd
+        text: Free-for-all
 
 format:
   html:
@@ -20,4 +26,3 @@ format:
     toc: true
 
 editor: visual
-

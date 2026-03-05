@@ -1,5 +1,19 @@
 [
   {
+    "objectID": "resume.html",
+    "href": "resume.html",
+    "title": "Resume",
+    "section": "",
+    "text": "Resume coming soon."
+  },
+  {
+    "objectID": "free.html",
+    "href": "free.html",
+    "title": "Free-for-all",
+    "section": "",
+    "text": "Extra content goes here."
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "mysite",
@@ -7,10 +21,17 @@
     "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\n1 + 1\n\n[1] 2"
   },
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "Projects",
     "section": "",
-    "text": "About this site\n\n1 + 1\n\n[1] 2"
+    "text": "This page will contain projects from my coursework."
+  },
+  {
+    "objectID": "projects.html#my-projects",
+    "href": "projects.html#my-projects",
+    "title": "Projects",
+    "section": "",
+    "text": "This page will contain projects from my coursework."
   }
 ]

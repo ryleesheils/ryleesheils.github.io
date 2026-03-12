@@ -1,11 +1,49 @@
 ---
-title: "mysite"
+title: "Home"
+page-layout: full
 ---
 
-This is a Quarto website.
+::: grid
+::: {.g-col-12 g-col-md-7}
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+# Hi, I’m Rylee
 
-```{r}
-1 + 1
-```
+I’m an Environmental Studies student interested in GIS, data storytelling, and how we can use spatial tools to understand real-world problems. This website is my space for class projects, maps, and a few things I’m learning along the way.
+:::
+
+::: {.g-col-12 g-col-md-5}
+
+::: card
+## Quick links
+
+-   [About](about.qmd)
+-   [Projects](projects.qmd)
+-   [Resume](resume.qmd)
+-   [Free-for-all](free.qmd)
+:::
+
+::: card
+## What I’m working on right now
+
+-   Building this Quarto site + GitHub Pages
+-   Adding a few projects and visualizations
+-   Cleaning up my portfolio layout
+:::
+
+::: :::
+
+------------------------------------------------------------------------
+
+## Featured project
+
+::: card
+### Coming soon: My first featured project
+
+A short summary of what the project is, what tools I used (ex: ArcGIS Pro / R / Quarto), and what I learned.
+:::
+
+------------------------------------------------------------------------
+
+## Contact
+
+## If you want to reach me, email: **ryleesheils\@gmail.com**

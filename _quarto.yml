@@ -3,25 +3,24 @@ project:
   output-dir: docs
 
 website:
-  title: "ryleesheils"
+  title: "Rylee Sheils"
   navbar:
-    collapse: false
     left:
       - href: index.qmd
-        text: Landing
+        text: Home
       - href: about.qmd
         text: About
       - href: projects.qmd
         text: Projects
+      - href: free.qmd
+        text: Interests
       - href: resume.qmd
         text: Resume
-      - href: free.qmd
-        text: Free-for-all
 
 format:
   html:
-    theme:
-      - cosmo
-      - brand
+    theme: minty
     css: styles.css
     toc: true
+
+editor: visual

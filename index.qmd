@@ -5,7 +5,7 @@ page-layout: full
 
 #  Hi, I'm Rylee 
 
-![](images/profile.jpg){width="250"}
+![](images/clipboard-1640825766.jpeg){fig-align="center" width="269"}
 
 I'm and Environmental Studies Student at UCSB interested in GIS, Environmental Justice and politics, and how we can utilize spacial tools to understand real-world issues. This website acts as a personal online portfolio where I can share some of the projects I've worked on, along with information about my interest, experiences, and the skills I've been developing. Through these pages, I hope to highlight ways I use mapping, data, and environmental analysis to explore and communicate interesting environmental topics.
 

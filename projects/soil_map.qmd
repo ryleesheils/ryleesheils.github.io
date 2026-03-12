@@ -14,3 +14,25 @@ This project was completed using **ArcGIS Pro** and focuses on simplifying soil 
 ## Why this project matters
 
 This project helped me think more critically about how soil conditions can influence environmental risk. It also showed me how GIS can be used to simplify complex environmental datasets into maps that are easier to interpret and communicate.
+
+<iframe src="https://www.arcgis.com/apps/mapviewer/index.html?webmap=0b3d2ab4d0db4366ba75797c5de89537" width="100%" height="500" frameborder="0" allowfullscreen>
+
+</iframe>
+
+Based on their soil series descriptions in the USDA SSURGO database, soil map units were grouped by permeability to highlight differences in hydrologic behavior surrounding the Calabasas and Chiquita Canyon landfill sites. Coarser Hanford and Yolo soils exhibit higher permeability and allow greater infiltration, while clay-rich Altamont and Diablo soils have lower permeability and may slow contaminant movement. River and mountainous units were separated as non-soil landscape features.
+
+### Soil Stability at the Calabasas Landfill 
+
+Although the Calabasas Landfill is located in the Santa Monica Mountains which is a non-soil feature, it can potentially be concerning because the area is defined by hillside terrain and soil conditions that can be vulnerable to erosion and slope instability. Disturbing these soils can increase the chances of sediment movement, and harmful runoff especially during heavy rain events. This means the main risk at Calabasas is less about high permeability and more about the potential for unstable slopes and surface erosion to spread pollutants beyond the landfill site.
+
+### Soil Stability at the Chiquita Canyon Landfill 
+
+The Chiquita Canyon area appears especially concerning because it is near highly permeable soil. This increases the risk that contaminants could easily infiltrate the soil and then be carried through runoff into the nearby **Santa Clara River Watershed**. Because that river ultimately drains toward the ocean, pollution released near the landfill could travel beyond the immediate site and potentially affect downstream ecosystems overall.
+
+### Summary: 
+
+Both landfill sites raise soil-related environmental concerns, but in different ways.
+
+Chiquita Canyon is concerning as it's near highly permeable soils, which can potential contaminants to be absorbed into the local watershed and move quickly into the nearby **Santa Clara River** that supplies over **60,000 acres** of local farmland (ASHS, 2013).
+
+Calabasas, on the other hand, is more concerning for erosion and slope instability, where disturbed hillside soils can increase runoff and the downslope spread of pollutants. Together, these sites show how local soil conditions can shape the type and scale of environmental risk around landfills.

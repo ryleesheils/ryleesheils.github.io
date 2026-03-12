@@ -16,9 +16,9 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "mysite",
+    "title": "Home",
     "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\n1 + 1\n\n[1] 2"
+    "text": "I’m an Environmental Studies student interested in GIS, data storytelling, and how we can use spatial tools to understand real-world problems. This website is my space for class projects, maps, and a few things I’m learning along the way."
   },
   {
     "objectID": "projects.html",
@@ -33,5 +33,40 @@
     "title": "Projects",
     "section": "",
     "text": "This page will contain projects from my coursework."
+  },
+  {
+    "objectID": "index.html#quick-links",
+    "href": "index.html#quick-links",
+    "title": "Home",
+    "section": "Quick links",
+    "text": "Quick links\n\nAbout\nProjects\nResume\nFree-for-all"
+  },
+  {
+    "objectID": "index.html#what-im-working-on-right-now",
+    "href": "index.html#what-im-working-on-right-now",
+    "title": "Home",
+    "section": "What I’m working on right now",
+    "text": "What I’m working on right now\n\nBuilding this Quarto site + GitHub Pages\nAdding a few projects and visualizations\nCleaning up my portfolio layout"
+  },
+  {
+    "objectID": "index.html#featured-project",
+    "href": "index.html#featured-project",
+    "title": "Home",
+    "section": "Featured project",
+    "text": "Featured project\n\nComing soon: My first featured project\nA short summary of what the project is, what tools I used (ex: ArcGIS Pro / R / Quarto), and what I learned."
+  },
+  {
+    "objectID": "index.html#contact",
+    "href": "index.html#contact",
+    "title": "Home",
+    "section": "Contact",
+    "text": "Contact"
+  },
+  {
+    "objectID": "index.html#if-you-want-to-reach-me-email-ryleesheilsgmail.com",
+    "href": "index.html#if-you-want-to-reach-me-email-ryleesheilsgmail.com",
+    "title": "Home",
+    "section": "If you want to reach me, email: ryleesheils@gmail.com",
+    "text": "If you want to reach me, email: ryleesheils@gmail.com"
   }
 ]

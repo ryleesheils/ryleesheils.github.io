@@ -4,16 +4,13 @@ page-layout: full
 ---
 
 ::: grid
-::: {.g-col-12 g-col-md-7}
-
 # Hi, I’m Rylee
 
 I’m an Environmental Studies student interested in GIS, data storytelling, and how we can use spatial tools to understand real-world problems. This website is my space for class projects, maps, and a few things I’m learning along the way.
 :::
 
-::: {.g-col-12 g-col-md-5}
+::: grid
 
-::: card
 ## Quick links
 
 -   [About](about.qmd)
@@ -30,7 +27,7 @@ I’m an Environmental Studies student interested in GIS, data storytelling, and
 -   Cleaning up my portfolio layout
 :::
 
-::: :::
+:::: :::
 
 ------------------------------------------------------------------------
 
@@ -47,3 +44,4 @@ A short summary of what the project is, what tools I used (ex: ArcGIS Pro / R / 
 ## Contact
 
 ## If you want to reach me, email: **ryleesheils\@gmail.com**
+::::

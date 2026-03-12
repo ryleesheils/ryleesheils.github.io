@@ -1,0 +1,16 @@
+---
+title: "Soil Permeability Around Landfills"
+date: 2026-03-11
+categories: [GIS, UCSB]
+image: ../photos/soil_map_photo.jpg
+---
+
+This GIS project analyzes soil permeability surrounding the **Calabasas** and **Chiquita Canyon** landfill sites in Los Angeles County.
+
+Using USDA **SSURGO soil data**, soil classes were grouped based on infiltration potential to better understand how subsurface conditions may influence water movement and contaminant transport.
+
+This project was completed using **ArcGIS Pro** and focuses on simplifying soil classifications to make environmental patterns easier to interpret.
+
+## Why this project matters
+
+This project helped me think more critically about how soil conditions can influence environmental risk. It also showed me how GIS can be used to simplify complex environmental datasets into maps that are easier to interpret and communicate.

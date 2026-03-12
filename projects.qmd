@@ -1,7 +1,8 @@
 ---
 title: "Projects"
+listing:
+  contents: projects
+  categories: true
+  sort: "date desc"
+  type: grid
 ---
-
-## My Projects
-
-This page will contain projects from my coursework.

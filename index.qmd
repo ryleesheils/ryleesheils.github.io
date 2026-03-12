@@ -3,7 +3,11 @@ title: "Home"
 page-layout: full
 ---
 
-#  Hi, I'm Rylee!
+#  
+
+::: text-center
+## Hi, I’m Rylee!
+:::
 
 ![](images/clipboard-1640825766.jpeg){fig-align="center" width="269"}
 

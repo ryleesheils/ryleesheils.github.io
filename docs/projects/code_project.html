@@ -167,6 +167,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   <li><a href="#data-visualization-energy-by-cloud-cover" id="toc-data-visualization-energy-by-cloud-cover" class="nav-link active" data-scroll-target="#data-visualization-energy-by-cloud-cover">Data visualization: Energy by Cloud Cover</a>
   <ul class="collapse">
   <li><a href="#step-1.-set-up" id="toc-step-1.-set-up" class="nav-link" data-scroll-target="#step-1.-set-up">Step 1. Set Up</a></li>
+  <li><a href="#step-2.-creating-necessary-data-frame" id="toc-step-2.-creating-necessary-data-frame" class="nav-link" data-scroll-target="#step-2.-creating-necessary-data-frame">Step 2. Creating necessary data frame</a></li>
+  <li><a href="#step-3.-creating-visualization-with-code" id="toc-step-3.-creating-visualization-with-code" class="nav-link" data-scroll-target="#step-3.-creating-visualization-with-code">Step 3. Creating Visualization with Code</a></li>
   </ul></li>
   </ul>
 </nav>
@@ -221,6 +223,16 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </div>
 <p>Here I loaded in the packages that I used to create my project. This includes, tidyverse, here, and janitor. I then read in my ENVS research data into a new data frame called “personal.”</p>
 <p>Under this, I cleaned and wrangled the data names and formatted the date to be xm/xd/xy.</p>
+</section>
+<section id="step-2.-creating-necessary-data-frame" class="level2">
+<h2 class="anchored" data-anchor-id="step-2.-creating-necessary-data-frame">Step 2. Creating necessary data frame</h2>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>latest_date <span class="ot">&lt;-</span> <span class="fu">max</span>(personal<span class="sc">$</span>date, <span class="at">na.rm =</span> <span class="cn">TRUE</span>) <span class="co"># create new data frame called latest_date that establishes the last date that data was collected</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</div>
+<p>Although this step seems small, it is important to create the data frames we will recall in the upcoming code chunks.</p>
+</section>
+<section id="step-3.-creating-visualization-with-code" class="level2">
+<h2 class="anchored" data-anchor-id="step-3.-creating-visualization-with-code">Step 3. Creating Visualization with Code</h2>
 
 
 </section>

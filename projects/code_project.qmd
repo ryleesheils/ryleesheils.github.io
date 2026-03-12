@@ -26,3 +26,17 @@ personal <- read_csv(here("data", "ENVSdsresearch.csv")) |> #create new data set
 Here I loaded in the packages that I used to create my project. This includes, tidyverse, here, and janitor. I then read in my ENVS research data into a new data frame called "personal." 
 
 Under this, I cleaned and wrangled the data names and formatted the date to be xm/xd/xy.
+
+## Step 2. Creating necessary data frame
+```{r}
+#| label: Create Necessary Data Frame
+#| message: false
+#| warning: false
+latest_date <- max(personal$date, na.rm = TRUE) # create new data frame called latest_date that establishes the last date that data was collected
+```
+
+Although this step seems small, it is important to create the data frames we will recall in the upcoming code chunks.
+
+## Step 3. Creating Visualization with Code 
+
+

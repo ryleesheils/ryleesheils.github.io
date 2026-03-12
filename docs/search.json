@@ -110,5 +110,19 @@
     "title": "Personal Data Coding Project",
     "section": "Step 1. Set Up",
     "text": "Step 1. Set Up\n\nlibrary(tidyverse) #load in tidyverse package\nlibrary(here) #load in here\nlibrary(janitor) #load in janitor \n\npersonal &lt;- read_csv(here(\"data\", \"ENVSdsresearch.csv\")) |&gt; #create new data set called personal using my ENVSdsresearch.csv \n  clean_names() |&gt; #clean names \n  mutate(date = as.Date(date, format = \"%m/%d/%Y\")) #change date format in table \n\nHere I loaded in the packages that I used to create my project. This includes, tidyverse, here, and janitor. I then read in my ENVS research data into a new data frame called “personal.”\nUnder this, I cleaned and wrangled the data names and formatted the date to be xm/xd/xy."
+  },
+  {
+    "objectID": "projects/code_project.html#step-2.-creating-necessary-data-frame",
+    "href": "projects/code_project.html#step-2.-creating-necessary-data-frame",
+    "title": "Personal Data Coding Project",
+    "section": "Step 2. Creating necessary data frame",
+    "text": "Step 2. Creating necessary data frame\n\nlatest_date &lt;- max(personal$date, na.rm = TRUE) # create new data frame called latest_date that establishes the last date that data was collected\n\nAlthough this step seems small, it is important to create the data frames we will recall in the upcoming code chunks."
+  },
+  {
+    "objectID": "projects/code_project.html#step-3.-creating-visualization-with-code",
+    "href": "projects/code_project.html#step-3.-creating-visualization-with-code",
+    "title": "Personal Data Coding Project",
+    "section": "Step 3. Creating Visualization with Code",
+    "text": "Step 3. Creating Visualization with Code"
   }
 ]

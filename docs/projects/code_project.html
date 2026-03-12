@@ -170,6 +170,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   <li><a href="#step-2.-creating-necessary-data-frame" id="toc-step-2.-creating-necessary-data-frame" class="nav-link" data-scroll-target="#step-2.-creating-necessary-data-frame">Step 2. Creating necessary data frame</a></li>
   <li><a href="#step-3.-creating-visualization-with-code" id="toc-step-3.-creating-visualization-with-code" class="nav-link" data-scroll-target="#step-3.-creating-visualization-with-code">Step 3. Creating Visualization with Code</a></li>
   </ul></li>
+  <li><a href="#why-i-chose-this-project" id="toc-why-i-chose-this-project" class="nav-link" data-scroll-target="#why-i-chose-this-project">Why I chose this project</a></li>
+  <li><a href="#affective-visualization" id="toc-affective-visualization" class="nav-link" data-scroll-target="#affective-visualization">Affective Visualization</a></li>
   </ul>
 </nav>
     </div>
@@ -233,9 +235,43 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </section>
 <section id="step-3.-creating-visualization-with-code" class="level2">
 <h2 class="anchored" data-anchor-id="step-3.-creating-visualization-with-code">Step 3. Creating Visualization with Code</h2>
-
-
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(personal, <span class="fu">aes</span>(<span class="at">x =</span> cloud_cover, <span class="at">y =</span> energy_level_1_5, <span class="at">color =</span> cloud_cover)) <span class="sc">+</span> <span class="co">#load in data and assign x, y varaibles.</span></span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_boxplot</span>(<span class="at">alpha =</span> <span class="fl">0.25</span>, <span class="at">outlier.shape =</span> <span class="cn">NA</span>) <span class="sc">+</span> <span class="co">#shaping geom boxplot</span></span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_jitter</span>(<span class="at">width =</span> <span class="fl">0.15</span>, <span class="at">size =</span> <span class="fl">2.5</span>, <span class="at">alpha =</span> <span class="fl">0.7</span>) <span class="sc">+</span> <span class="co">#sizing for jitter plot</span></span>
+<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>( </span>
+<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a>    <span class="at">title =</span> <span class="st">"Daily Energy Level by Cloud Cover"</span>, <span class="co">#title</span></span>
+<span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a>    <span class="at">subtitle =</span> <span class="fu">paste</span>(<span class="st">"Most recent observation:"</span>, latest_date), <span class="co">#subtitle with latest date of recorded observations</span></span>
+<span id="cb3-7"><a href="#cb3-7" aria-hidden="true" tabindex="-1"></a>    <span class="at">x =</span> <span class="st">"Cloud cover"</span>,</span>
+<span id="cb3-8"><a href="#cb3-8" aria-hidden="true" tabindex="-1"></a>    <span class="at">y =</span> <span class="st">"Energy Level (1–5)"</span> <span class="co">#label x and y axis </span></span>
+<span id="cb3-9"><a href="#cb3-9" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">+</span></span>
+<span id="cb3-10"><a href="#cb3-10" aria-hidden="true" tabindex="-1"></a>  <span class="fu">scale_color_brewer</span>(<span class="at">palette =</span> <span class="st">"Dark2"</span>) <span class="sc">+</span> <span class="co">#color palate and theme selections</span></span>
+<span id="cb3-11"><a href="#cb3-11" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme_minimal</span>() <span class="sc">+</span></span>
+<span id="cb3-12"><a href="#cb3-12" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme</span>(<span class="at">legend.position =</span> <span class="st">"none"</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="code_project_files/figure-html/Jitter Plot Cloud Cover-1.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
+</div>
+</div>
+<p>This figure shows how my reported daily energy level changed across different cloud cover conditions in my personal dataset. The x-axis groups days by cloud cover category, while the y-axis shows energy level on a 1–5 scale.</p>
+<p>Each colored point represents an individual observation. The boxplots summarize the distribution within each category by showing the median, the middle 50% of values, and the overall spread of the data. From this plot, it looks like energy levels were generally highest on mostly clear days, where the median appears around 4 and the values are spread across a relatively wide range. Cloudy days also show moderate to somewhat high energy levels, with a median around the mid-3 range. In contrast, cloudy/rainy days appear to be associated with somewhat lower energy levels overall, and partly cloudy has very limited data, so it is harder to interpret confidently.</p>
+<p>Overall, the plot suggests that clearer weather may have been associated with higher self-reported energy in this dataset, although the number of observations differs across categories, so the results should be interpreted cautiously.</p>
 </section>
+</section>
+<section id="why-i-chose-this-project" class="level1">
+<h1>Why I chose this project</h1>
+<p>I chose this project because on days when I feel especially tired, I often blame the weather or the fact that the sun is blocked by clouds. That made me curious about whether this feeling actually matched the patterns in my daily life, so I wanted to chart the relationship between my energy level and cloud cover using my own personal data.</p>
+<p>What I found was interesting because, across the 30 days I recorded, most of the days were actually fairly sunny. Even so, the visualization still gave me a way to think more critically about whether weather really shapes how energetic I feel, or whether I just notice cloudy days more when I am already tired. At the same time, I realized that expanding the time frame of data collection would likely improve the accuracy of the project and make any patterns more reliable.</p>
+</section>
+<section id="affective-visualization" class="level1">
+<h1>Affective Visualization</h1>
+<p><img src="../photos/affective_visualization.png" class="img-fluid"></p>
+<p>For the affective portion of the project, I re imagined the data as a field of flowers, where each flower represented one day of observations. The design used flower height, petal shape, color, and leaves to encode different variables from the dataset in a more visual and expressive way.</p>
+
+
 </section>
 
 </main> <!-- /main -->

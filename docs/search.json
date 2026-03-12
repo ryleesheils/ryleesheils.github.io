@@ -18,7 +18,7 @@
     "href": "index.html",
     "title": "Home",
     "section": "",
-    "text": "I’m and Environmental Studies Student at UCSB interested in GIS, Environmental Justice and politics, and how we can utilize spacial tools to understand real-world issues. This website acts as a personal online portfolio where I can share some of the projects I’ve worked on, along with information about my interest, experiences, and the skills I’ve been developing. Through these pages, I hope to highlight ways I use mapping, data, and environmental analysis to explore and communicate interesting environmental topics.\n\n\n\nAbout\nProjects\nResume\nFree-for-all"
+    "text": "I’m and Environmental Studies Student at UCSB interested in GIS, Environmental Justice and politics, and how we can utilize spacial tools to understand real-world issues. This website acts as a personal online portfolio where I can share some of the projects I’ve worked on, along with information about my interest, experiences, and the skills I’ve been developing. Through these pages, I hope to highlight ways I use mapping, data, and environmental analysis to explore and communicate interesting environmental topics.\n\n\n\nAbout\nProjects\nResume\nFree-for-all\n\n\n\n\n\n📧 Email\n\n\n💻 GitHub\n\n\n🗺 ArcGIS Map Project\nView my interactive soil permeability map of landfill sites surrounding the Calabasas and Chiquita Canyon landfills.\nOpen interactive map"
   },
   {
     "objectID": "projects.html",
@@ -68,5 +68,12 @@
     "title": "Home",
     "section": "If you want to reach me, email: ryleesheils@gmail.com",
     "text": "If you want to reach me, email: ryleesheils@gmail.com"
+  },
+  {
+    "objectID": "index.html#contact-me",
+    "href": "index.html#contact-me",
+    "title": "Home",
+    "section": "",
+    "text": "📧 Email\n\n\n💻 GitHub\n\n\n🗺 ArcGIS Map Project\nView my interactive soil permeability map of landfill sites surrounding the Calabasas and Chiquita Canyon landfills.\nOpen interactive map"
   }
 ]

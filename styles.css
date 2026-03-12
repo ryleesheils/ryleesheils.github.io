@@ -40,4 +40,20 @@ img {
 
 a {
   color: #2f5d50;
+} 
+.contact-box {
+  border-top: 1px solid #c8b7a6;
+  padding: 18px;
+  text-align: center;
+  font-size: 20px;
+}
+
+.contact-box a {
+  text-decoration: none;
+  color: #8b6d58;
+  font-weight: 500;
+}
+
+.contact-box:hover {
+  background-color: #f7f2ec;
 }

@@ -19,4 +19,20 @@ I'm and Environmental Studies Student at UCSB interested in GIS, Environmental J
 -   [Free-for-all](free.qmd)
 :::
 
-### if you want to reach me, email: ryleesheils\@gmail.com
+## Contact me! 
+
+::: contact-box
+[📧 Email](mailto:ryleesheils@gmail.com)
+:::
+
+::: contact-box
+[💻 GitHub](https://github.com/ryleesheils)
+:::
+
+::: contact-box
+🗺 **ArcGIS Map Project**
+
+View my interactive soil permeability map of landfill sites surrounding the Calabasas and Chiquita Canyon landfills.
+
+[Open interactive map](https://ucsb.maps.arcgis.com/apps/mapviewer/index.html?webmap=0b3d2ab4d0db4366ba75797c5de89537)
+:::

@@ -2,6 +2,7 @@
   {
     "listing": "/projects.html",
     "items": [
+      "/projects/code_project.html",
       "/projects/soil_map.html"
     ]
   }

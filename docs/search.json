@@ -67,7 +67,7 @@
     "href": "projects.html",
     "title": "Projects",
     "section": "",
-    "text": "Soil Permeability Around Landfills\n\n\n\nGIS\n\nUCSB\n\n\n\n\n\n\n\n\n\n\nMar 11, 2026\n\n\n\n\n\n\nNo matching items"
+    "text": "Personal Data Coding Project\n\n\n\nRStudio\n\nData Science\n\nUCSB\n\n\n\n\n\n\n\n\n\n\nMar 11, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nSoil Permeability Around Landfills\n\n\n\nGIS\n\nUCSB\n\n\n\n\n\n\n\n\n\n\nMar 11, 2026\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "projects.html#my-projects",
@@ -96,5 +96,19 @@
     "title": "Soil Permeability Around Landfills",
     "section": "Why this project matters",
     "text": "Why this project matters\nThis project helped me think more critically about how soil conditions can influence environmental risk. It also showed me how GIS can be used to simplify complex environmental datasets into maps that are easier to interpret and communicate."
+  },
+  {
+    "objectID": "projects/code_project.html",
+    "href": "projects/code_project.html",
+    "title": "Personal Data Coding Project",
+    "section": "",
+    "text": "This project comes from my personal data assignment, where I worked with a data set I collected myself and used R to explore patterns through visualization. I wanted to understand how different daily factors relate to my reported energy level, and then think about how those patterns could be translated into a more expressive affective visualization."
+  },
+  {
+    "objectID": "projects/code_project.html#step-1.-set-up",
+    "href": "projects/code_project.html#step-1.-set-up",
+    "title": "Personal Data Coding Project",
+    "section": "Step 1. Set Up",
+    "text": "Step 1. Set Up\n\nlibrary(tidyverse) #load in tidyverse package\nlibrary(here) #load in here\nlibrary(janitor) #load in janitor \n\npersonal &lt;- read_csv(here(\"data\", \"ENVSdsresearch.csv\")) |&gt; #create new data set called personal using my ENVSdsresearch.csv \n  clean_names() |&gt; #clean names \n  mutate(date = as.Date(date, format = \"%m/%d/%Y\")) #change date format in table \n\nHere I loaded in the packages that I used to create my project. This includes, tidyverse, here, and janitor. I then read in my ENVS research data into a new data frame called “personal.”\nUnder this, I cleaned and wrangled the data names and formatted the date to be xm/xd/xy."
   }
 ]

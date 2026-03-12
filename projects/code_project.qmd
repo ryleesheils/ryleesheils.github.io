@@ -1,0 +1,28 @@
+---
+title: "Personal Data Coding Project"
+date: 2026-03-11
+categories: [RStudio, Data Science, UCSB]
+image: ../photos/affective_visualization.png
+---
+This project comes from my personal data assignment, where I worked with a data set I collected myself and used R to explore patterns through visualization. I wanted to understand how different daily factors relate to my reported energy level, and then think about how those patterns could be translated into a more expressive affective visualization. 
+
+# Data visualization: Energy by Cloud Cover 
+The first figure explores how my daily energy level varied across different cloud cover conditions. I used a combination of boxplots and jittered points so that the figure would show both the overall distribution within each category and the individual observations in the data set. 
+
+## Step 1. Set Up 
+```{r}
+#| label: Load Data and Wrangle
+#| message: false
+#| warning: false
+library(tidyverse) #load in tidyverse package
+library(here) #load in here
+library(janitor) #load in janitor 
+
+personal <- read_csv(here("data", "ENVSdsresearch.csv")) |> #create new data set called personal using my ENVSdsresearch.csv 
+  clean_names() |> #clean names 
+  mutate(date = as.Date(date, format = "%m/%d/%Y")) #change date format in table 
+```
+
+Here I loaded in the packages that I used to create my project. This includes, tidyverse, here, and janitor. I then read in my ENVS research data into a new data frame called "personal." 
+
+Under this, I cleaned and wrangled the data names and formatted the date to be xm/xd/xy.

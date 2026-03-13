@@ -1,0 +1,24 @@
+---
+title: "StoryMap: Soil Types Surrounding Targeted Landfills"
+date: 2026-03-11
+categories: [GIS, StoryMap, UCSB]
+image: ../photos/story_map.png
+---
+
+This StoryMap presents my landfill soils project in a more interactive and narrative format. It combines mapping, explanation, and visual context to show how soil permeability around the Calabasas and Chiquita Canyon landfill sites may influence water movement and potential contaminant transport.
+
+I wanted to include this project because it shows a different side of GIS work. Instead of only presenting a static map, the StoryMap allows me to organize the project as a guided narrative and explain why the spatial patterns matter.
+
+## View the StoryMap
+
+[Open the StoryMap](https://arcg.is/1nWLqC0)
+
+## StoryMap Preview
+
+<iframe src="https://arcg.is/1nWLqC0" width="100%" height="600" frameborder="0" allowfullscreen>
+
+</iframe>
+
+## Why this project matters
+
+This project helped me think more critically about how environmental risk is shaped by both physical geography and land use. It also showed me how StoryMaps can be used to communicate GIS analysis in a way that feels more accessible, visual, and engaging than a traditional report.

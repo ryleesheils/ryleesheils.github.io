@@ -67,7 +67,7 @@
     "href": "projects.html",
     "title": "Projects",
     "section": "",
-    "text": "Personal Data Coding Project\n\n\n\nRStudio\n\nData Science\n\nUCSB\n\n\n\n\n\n\n\n\n\n\nMar 11, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nSoil Permeability Around Landfills\n\n\n\nGIS\n\nUCSB\n\n\n\n\n\n\n\n\n\n\nMar 11, 2026\n\n\n\n\n\n\nNo matching items"
+    "text": "Personal Data Coding Project\n\n\n\nRStudio\n\nData Science\n\nUCSB\n\n\n\n\n\n\n\n\n\n\nMar 11, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nSoil Permeability Around Landfills\n\n\n\nGIS\n\nUCSB\n\n\n\n\n\n\n\n\n\n\nMar 11, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nStoryMap: Soil Types Surrounding Targeted Landfills\n\n\n\nGIS\n\nStoryMap\n\nUCSB\n\n\n\n\n\n\n\n\n\n\nMar 11, 2026\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "projects.html#my-projects",
@@ -124,5 +124,33 @@
     "title": "Personal Data Coding Project",
     "section": "Step 3. Creating Visualization with Code",
     "text": "Step 3. Creating Visualization with Code\n\nggplot(personal, aes(x = cloud_cover, y = energy_level_1_5, color = cloud_cover)) + #load in data and assign x, y varaibles.\n  geom_boxplot(alpha = 0.25, outlier.shape = NA) + #shaping geom boxplot\n  geom_jitter(width = 0.15, size = 2.5, alpha = 0.7) + #sizing for jitter plot\n  labs( \n    title = \"Daily Energy Level by Cloud Cover\", #title\n    subtitle = paste(\"Most recent observation:\", latest_date), #subtitle with latest date of recorded observations\n    x = \"Cloud cover\",\n    y = \"Energy Level (1–5)\" #label x and y axis \n  ) +\n  scale_color_brewer(palette = \"Dark2\") + #color palate and theme selections\n  theme_minimal() +\n  theme(legend.position = \"none\")\n\n\n\n\n\n\n\n\nThis figure shows how my reported daily energy level changed across different cloud cover conditions in my personal dataset. The x-axis groups days by cloud cover category, while the y-axis shows energy level on a 1–5 scale.\nEach colored point represents an individual observation. The boxplots summarize the distribution within each category by showing the median, the middle 50% of values, and the overall spread of the data. From this plot, it looks like energy levels were generally highest on mostly clear days, where the median appears around 4 and the values are spread across a relatively wide range. Cloudy days also show moderate to somewhat high energy levels, with a median around the mid-3 range. In contrast, cloudy/rainy days appear to be associated with somewhat lower energy levels overall, and partly cloudy has very limited data, so it is harder to interpret confidently.\nOverall, the plot suggests that clearer weather may have been associated with higher self-reported energy in this dataset, although the number of observations differs across categories, so the results should be interpreted cautiously."
+  },
+  {
+    "objectID": "projects/story_map.html",
+    "href": "projects/story_map.html",
+    "title": "StoryMap: Soil Types Surrounding Targeted Landfills",
+    "section": "",
+    "text": "This StoryMap presents my landfill soils project in a more interactive and narrative format. It combines mapping, explanation, and visual context to show how soil permeability around the Calabasas and Chiquita Canyon landfill sites may influence water movement and potential contaminant transport.\nI wanted to include this project because it shows a different side of GIS work. Instead of only presenting a static map, the StoryMap allows me to organize the project as a guided narrative and explain why the spatial patterns matter."
+  },
+  {
+    "objectID": "projects/story_map.html#view-the-storymap",
+    "href": "projects/story_map.html#view-the-storymap",
+    "title": "StoryMap: Soil Types Surrounding Targeted Landfills",
+    "section": "View the StoryMap",
+    "text": "View the StoryMap\nOpen the StoryMap"
+  },
+  {
+    "objectID": "projects/story_map.html#storymap-preview",
+    "href": "projects/story_map.html#storymap-preview",
+    "title": "StoryMap: Soil Types Surrounding Targeted Landfills",
+    "section": "StoryMap Preview",
+    "text": "StoryMap Preview"
+  },
+  {
+    "objectID": "projects/story_map.html#why-this-project-matters",
+    "href": "projects/story_map.html#why-this-project-matters",
+    "title": "StoryMap: Soil Types Surrounding Targeted Landfills",
+    "section": "Why this project matters",
+    "text": "Why this project matters\nThis project helped me think more critically about how environmental risk is shaped by both physical geography and land use. It also showed me how StoryMaps can be used to communicate GIS analysis in a way that feels more accessible, visual, and engaging than a traditional report."
   }
 ]

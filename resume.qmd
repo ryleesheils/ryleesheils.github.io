@@ -2,4 +2,8 @@
 title: "Resume"
 ---
 
-Resume coming soon.
+## You can view or download my resume below:
+
+[View my resume](files/resume.pdf){target="_blank"}
+
+[Download my resume](files/resume.pdf)

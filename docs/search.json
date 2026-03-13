@@ -4,7 +4,7 @@
     "href": "resume.html",
     "title": "Resume",
     "section": "",
-    "text": "Resume coming soon."
+    "text": "View my resume\nDownload my resume"
   },
   {
     "objectID": "free.html",
@@ -159,5 +159,12 @@
     "title": "About Me",
     "section": "",
     "text": "Feel free to listen while you view!"
+  },
+  {
+    "objectID": "resume.html#you-can-view-or-download-my-resume-below",
+    "href": "resume.html#you-can-view-or-download-my-resume-below",
+    "title": "Resume",
+    "section": "",
+    "text": "View my resume\nDownload my resume"
   }
 ]

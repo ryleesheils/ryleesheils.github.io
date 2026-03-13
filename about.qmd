@@ -2,4 +2,42 @@
 title: "About Me"
 ---
 
+# Listen to my Favorite Artist While You Scroll :)
+
+<iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/artist/0du5cEVh5yTK9QJze8zA0C?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy">
+
+</iframe>
+
 # Education
+
+I am an Environmental Studies student at the University of California, Santa Barbara with interests in **GIS, data science, environmental policy, and environmental justice**.
+
+My academic interests focus on how spatial data and mapping tools can reveal patterns in environmental systems and highlight inequalities in the way environmental resources are distributed. I am especially interested in the ways GIS and data analysis can support conversations around resource inequity and environmental decision-making.
+
+In the future, I hope to pursue a career in **law and politics**, where I can combine environmental knowledge with policy and advocacy to address issues related to environmental justice and access to resources.
+
+![](photos/profile.jpg){width="300"}
+
+------------------------------------------------------------------------
+
+# Heritage and Culture 
+
+My cultural background is shaped by both my **Filipino and Italian heritage**, and both have played an important role in how I understand family, community, and connection.
+
+My Filipino grandmother lived with my family for my entire life, which helped me stay closely connected to Filipino culture while growing up. Through her, we maintained strong ties with our local Filipino community and participated in traditions that emphasized family, respect, and togetherness.
+
+On my Italian side, culture has often been expressed through **food, hospitality, and sharing space with others**. Welcoming people in and gathering around meals has always been an important part of family life, and that tradition has shaped the way I think about connection and community.
+
+![](photos/profile.jpg){width="300"}
+
+------------------------------------------------------------------------
+
+## Personal Interests
+
+Outside of academics, I enjoy activities that help me stay active, creative, and engaged with others.
+
+I enjoy **hiking** because it gives me the chance to spend time outdoors and connect with the kinds of landscapes I study in my coursework. I also enjoy **painting**, which gives me a creative outlet and a way to experiment with color and design.
+
+Another important part of my life has been **coaching and teaching through the NCOS program**. Working with younger students has been a rewarding experience because it allows me to support others, build confidence, and strengthen my own leadership and communication skills.
+
+![](photos/profile.jpg){width="300"}

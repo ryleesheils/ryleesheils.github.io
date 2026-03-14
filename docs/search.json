@@ -4,7 +4,11 @@
     "href": "resume.html",
     "title": "Resume",
     "section": "",
+<<<<<<< HEAD
     "text": "View my resume"
+=======
+    "text": "View my resume\nDownload my resume"
+>>>>>>> f3fb6fd26611649ff6f73a9f270c8cc5b63c7db2
   },
   {
     "objectID": "free.html",
@@ -165,6 +169,10 @@
     "href": "resume.html#you-can-view-or-download-my-resume-below",
     "title": "Resume",
     "section": "",
+<<<<<<< HEAD
     "text": "View my resume"
+=======
+    "text": "View my resume\nDownload my resume"
+>>>>>>> f3fb6fd26611649ff6f73a9f270c8cc5b63c7db2
   }
 ]

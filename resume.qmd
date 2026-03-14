@@ -6,6 +6,10 @@ title: "Resume"
 
 [View my resume](files/resume.pdf){target="_blank"}
 
+<<<<<<< HEAD
 <iframe src="files/resume.pdf" width="100%" height="800">
 
 </iframe>
+=======
+[Download my resume](files/resume.pdf)
+>>>>>>> f3fb6fd26611649ff6f73a9f270c8cc5b63c7db2

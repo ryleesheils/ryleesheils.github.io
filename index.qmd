@@ -20,7 +20,9 @@ I'm and Environmental Studies Student at UCSB interested in GIS, Environmental J
 -   [Free-for-all](free.qmd)
 :::
 
-## Contact me!
+::: {style="text-align: center;"}
+<h2>Contact Me</h2>
+:::
 
 ::: contact-box
 [📧 Email](mailto:ryleesheils@gmail.com)

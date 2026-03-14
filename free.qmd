@@ -2,7 +2,9 @@
 title: "Free-for-all"
 ---
 
-# My Favorite Recipes
+::: {style="text-align: center;"}
+<h2>My Favorite Recipes</h2>
+:::
 
 ## Chocolate Chip Cookies
 

@@ -2,4 +2,34 @@
 title: "Free-for-all"
 ---
 
-Extra content goes here.
+# My Favorite Recipes 
+
+## Chocolate Chip Cookies 
+
+![](images/clipboard-2809950226.png)
+
+::: contact-box
+[Best Chocolate Chip Cookies](https://www.allrecipes.com/recipe/10813/best-chocolate-chip-cookies/)
+:::
+
+## Chicken Adobo **Filipino** 
+
+![](photos/adobo.png){width="686"}
+
+::: contact-box
+[Open recipe](https://panlasangpinoy.com/filipino-chicken-adobo-recipe/)
+:::
+
+![](photos/pandesal.png){width="693" height="507"}
+
+::: contact-box
+[Open recipe](https://www.rivertenkitchen.com/soft-buttery-pandesal.html)
+:::
+
+## Creamy French Onion Orzo 
+
+![](photos/orzo.png){width="679" height="472"}
+
+::: contact-box
+[Open recipe](https://www.delish.com/cooking/recipe-ideas/a63637314/creamy-french-onion-orzo-recipe/)
+:::

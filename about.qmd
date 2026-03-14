@@ -12,11 +12,11 @@ Feel free to listen while you view!
 
 # Education
 
-I am an Environmental Studies student at the University of California, Santa Barbara with interests in **GIS, data science, environmental policy, and environmental justice**.
+I am an Environmental Studies student at the University of California, Santa Barbara with interests in GIS, data science, environmental policy, and environmental justice.
 
 My academic interests focus on how spatial data and mapping tools can reveal patterns in environmental systems and highlight inequalities in the way environmental resources are distributed. I am especially interested in the ways GIS and data analysis can support conversations around resource inequity and environmental decision-making.
 
-In the future, I hope to pursue a career in **law and politics**, where I can combine environmental knowledge with policy and advocacy to address issues related to environmental justice and access to resources.
+In the future, I hope to pursue a career in law and politics, where I can combine environmental knowledge with policy and advocacy to address issues related to environmental justice and access to resources.
 
 ::::: columns
 ::: {.column width="50%"}
@@ -32,12 +32,12 @@ In the future, I hope to pursue a career in **law and politics**, where I can co
 
 # Heritage and Culture
 
-My cultural background is shaped by both my **Filipino and Italian heritage**, and both have played an important role in how I understand family, community, and connection.
+My cultural background is shaped by both my Filipino and Italian heritage, and both have played an important role in how I understand family, community, and connection.
 
 My Filipino grandmother lived with my family for my entire life, which helped me stay closely connected to Filipino culture while growing up. Through her, we maintained strong ties with our local Filipino community and participated in traditions that emphasized family, respect, and togetherness.
 
 ![Family Reunion 2025](photos/filipino1.png){fig-align="center" width="855"}
 
-On my Italian side, culture has often been expressed through **food, hospitality, and sharing space with others**. Welcoming people in and gathering around meals has always been an important part of family life, and that tradition has shaped the way I think about connection and community.
+On my Italian side, culture has often been expressed through food, hospitality, and sharing space with others. Welcoming people in and gathering around meals has always been an important part of family life, and that tradition has shaped the way I think about connection and community.
 
 ![My Family on the East Coast](photos/italian.png){fig-align="center" width="588"}

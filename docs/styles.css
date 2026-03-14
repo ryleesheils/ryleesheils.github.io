@@ -1,14 +1,14 @@
 /* css styles */
 body {
-  font-family: "Segoe UI", Arial, sans-serif;
+  font-family: "Trebuchet MS", "Segoe UI", sans-serif;
   line-height: 1.6;
 }
 
 h1, h2, h3 {
   color: #2f5d50;
   font-weight: 700;
+  font-family: "Pacifico", cursive;
 }
-
 .navbar {
   background-color: #dfeee8;
 }

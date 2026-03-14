@@ -11,7 +11,7 @@ Examining where landfills are located, what surrounds them, and who lives nearby
 
 This study uses GIS analysis to move beyond the abstract and examine two real facilities — the **Calabasas Landfill** and the **Chiquita Canyon Landfill** — to understand how place shapes risk.
 
-<iframe src="https://www.arcgis.com/apps/mapviewer/index.html?webmap=fc7bf0676fca4d298f3dc1a44a7448f7" width="100%" height="500" frameborder="0" allowfullscreen>
+<iframe src="https://arcg.is/1nWLqC0" width="100%" height="600" frameborder="0" allowfullscreen>
 
 </iframe>
 

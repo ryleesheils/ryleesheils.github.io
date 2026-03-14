@@ -4,12 +4,15 @@ date: 2026-03-11
 categories: [RStudio, Data Science, UCSB]
 image: ../photos/affective_visualization.png
 ---
-This project comes from my personal data assignment, where I worked with a data set I collected myself and used R to explore patterns through visualization. I wanted to understand how different daily factors relate to my reported energy level, and then think about how those patterns could be translated into a more expressive affective visualization. 
 
-# Data visualization: Energy by Cloud Cover 
-The first figure explores how my daily energy level varied across different cloud cover conditions. I used a combination of boxplots and jittered points so that the figure would show both the overall distribution within each category and the individual observations in the data set. 
+This project comes from my personal data assignment, where I worked with a data set I collected myself and used R to explore patterns through visualization. I wanted to understand how different daily factors relate to my reported energy level, and then think about how those patterns could be translated into a more expressive affective visualization.
 
-## Step 1. Set Up 
+# Data visualization: Energy by Cloud Cover
+
+The first figure explores how my daily energy level varied across different cloud cover conditions. I used a combination of boxplots and jittered points so that the figure would show both the overall distribution within each category and the individual observations in the data set.
+
+## Step 1. Set Up
+
 ```{r}
 #| label: Load Data and Wrangle
 #| message: false
@@ -23,11 +26,12 @@ personal <- read_csv(here("data", "ENVSdsresearch.csv")) |> #create new data set
   mutate(date = as.Date(date, format = "%m/%d/%Y")) #change date format in table 
 ```
 
-Here I loaded in the packages that I used to create my project. This includes, tidyverse, here, and janitor. I then read in my ENVS research data into a new data frame called "personal." 
+Here I loaded in the packages that I used to create my project. This includes, tidyverse, here, and janitor. I then read in my ENVS research data into a new data frame called "personal."
 
 Under this, I cleaned and wrangled the data names and formatted the date to be xm/xd/xy.
 
 ## Step 2. Creating necessary data frame
+
 ```{r}
 #| label: Create Necessary Data Frame
 #| message: false
@@ -37,7 +41,8 @@ latest_date <- max(personal$date, na.rm = TRUE) # create new data frame called l
 
 Although this step seems small, it is important to create the data frames we will recall in the upcoming code chunks.
 
-## Step 3. Creating Visualization with Code 
+## Step 3. Creating Visualization with Code
+
 ```{r}
 #| label: Jitter Plot Cloud Cover
 #| message: false
@@ -62,7 +67,8 @@ Each colored point represents an individual observation. The boxplots summarize 
 
 Overall, the plot suggests that clearer weather may have been associated with higher self-reported energy in this dataset, although the number of observations differs across categories, so the results should be interpreted cautiously.
 
-# Why I chose this project 
+# Why I chose this project
+
 I chose this project because on days when I feel especially tired, I often blame the weather or the fact that the sun is blocked by clouds. That made me curious about whether this feeling actually matched the patterns in my daily life, so I wanted to chart the relationship between my energy level and cloud cover using my own personal data.
 
 What I found was interesting because, across the 30 days I recorded, most of the days were actually fairly sunny. Even so, the visualization still gave me a way to think more critically about whether weather really shapes how energetic I feel, or whether I just notice cloudy days more when I am already tired. At the same time, I realized that expanding the time frame of data collection would likely improve the accuracy of the project and make any patterns more reliable.
